@@ -13,4 +13,11 @@ There are multiple gates that performs the role of **Forget**, **Input** and **O
 ### What is Machine Learning?
 Machine learning is a branch of **artificial intelligence (AI)** and **computer science** which focuses on the use of data and algorithms to imitate the way that humans learn, gradually **improving its accuracy**.
 ### How is it Different from Deep Learning?
+- **Machine Learning** is the superset. **Deep Learning** is the subset.
+- ML is the ability of computers to learn and act with less human intervention.
+- DL is all about mimicking the thinking capability of the human brain and arriving at a conclusion just like a human does after analyzing and thinking about it for a while.
+### Artificial Intelligence vs Machine Learning vs Deep Learning
+![image](https://user-images.githubusercontent.com/55954313/133870891-0423a591-7518-45e7-8bfc-a125b82fa160.png)
+### Neural Networks
+
 
