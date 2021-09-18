@@ -23,4 +23,8 @@ Machine learning is a branch of **artificial intelligence (AI)** and **computer 
    
 It comprises of several **nodes** which represent **neurons**. A collection of nodes creates a **node layer**. These node layers play specific roles. Some acts as **input layer**, some **hidden layers** and some acts as **output layer**. Each **node**, or **artificial neuron**, connects to another and has an **associated weight and threshold**. It is by tweaking these weights and thresholds, that the network is able to learn progressively.   
    
-There are different types of neural nets : **Convoluted Neural Networks**, **Recurrent Neural Networks**, etc
+There are different types of neural nets : **Convoluted Neural Networks**, **Recurrent Neural Networks**, etc.
+### Simplest Neural Network
+![image](https://user-images.githubusercontent.com/55954313/133871109-a721309a-9d14-435f-8d32-167c6b15c0d8.png)   
+This is called a **perceptron**. It has only one **input layer**, one **hidden layer** comprising of only one **node** and one **output layer**.   
+#### Source: https://www.ibm.com/in-en/cloud/learn/neural-networks
