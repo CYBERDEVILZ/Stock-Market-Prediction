@@ -1,5 +1,5 @@
-# Stock Market Prediction using Long Short-Term Memory
-The main aim of this project is to increase the accuracy of the prediction model by tweaking several hyper-parameters. The number of LSTM layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.
+# Stock Market Prediction using LSTM
+The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.
 
 ## Abstract
 **LSTM** or **Long Short-Term Memory** is an improvement over traditional **RNN** or **Recurrent Neural Network** in the sense that it can effectively “remember” **long sequence of events in the past**. Just like humans can derive information from the previous context and can chart his future actions, **RNN** and **LSTM** tends to imitate the same. The difference between **RNN** and **LSTM** is that **RNN** is used in places where the **retention of memory is short**, whereas **LSTM** is capable of connecting events that happened way earlier and the events that followed them.   
@@ -16,8 +16,11 @@ Machine learning is a branch of **artificial intelligence (AI)** and **computer 
 - **Machine Learning** is the superset. **Deep Learning** is the subset.
 - ML is the ability of computers to learn and act with less human intervention.
 - DL is all about mimicking the thinking capability of the human brain and arriving at a conclusion just like a human does after analyzing and thinking about it for a while.
-### Artificial Intelligence vs Machine Learning vs Deep Learning
+### Artificial Intelligence vs Machine Learning vs Deep Learning   
 ![image](https://user-images.githubusercontent.com/55954313/133870891-0423a591-7518-45e7-8bfc-a125b82fa160.png)
 ### Neural Networks
-
-
+**Neural networks**, also known as **Artificial Neural Networks (ANNs)** are a subset of **Machine Learning** and are at the **heart of Deep Learning algorithms**. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another.   
+   
+It comprises of several **nodes** which represent **neurons**. A collection of nodes creates a **node layer**. These node layers play specific roles. Some acts as **input layer**, some **hidden layers** and some acts as **output layer**. Each **node**, or **artificial neuron**, connects to another and has an **associated weight and threshold**. It is by tweaking these weights and thresholds, that the network is able to learn progressively.   
+   
+There are different types of neural nets : **Convoluted Neural Networks**, **Recurrent Neural Networks**, etc
