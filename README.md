@@ -28,3 +28,14 @@ There are different types of neural nets : **Convoluted Neural Networks**, **Rec
 ![image](https://user-images.githubusercontent.com/55954313/133871109-a721309a-9d14-435f-8d32-167c6b15c0d8.png)   
 This is called a **perceptron**. It has only one **input layer**, one **hidden layer** comprising of only one **node** and one **output layer**.   
 #### Source: https://www.ibm.com/in-en/cloud/learn/neural-networks
+### Deep Neural Network
+![image](https://user-images.githubusercontent.com/55954313/133872209-40ad4e68-71de-47d4-984d-499599da59f1.png)   
+- Contains multiple hidden layers
+- Since the depth of hidden layers is deep, hence the name.
+### Recurrent Nueral Network
+- Uses sequential data or time series
+- Used in solving temporal dependent problems: Natural language processing, image captioning, speech recognition, voice search, translation, etc.
+- Inefficient when it comes to prediction where the outcome is long term temporal dependent.
+- The reason being Exploding and Vanishing gradient.
+- LSTM overcomes the drawback
+
