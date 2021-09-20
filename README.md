@@ -1,4 +1,4 @@
-# Stock Market Prediction using LSTM
+# Stock Market Prediction using LSTM (Research)
 The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.
 
 ## Abstract
