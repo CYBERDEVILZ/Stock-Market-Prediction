@@ -32,12 +32,23 @@ This is called a **perceptron**. It has only one **input layer**, one **hidden l
 ![image](https://user-images.githubusercontent.com/55954313/133872209-40ad4e68-71de-47d4-984d-499599da59f1.png)   
 - Contains multiple hidden layers
 - Since the depth of hidden layers is deep, hence the name.
-- #### Source: https://www.ibm.com/in-en/cloud/learn/neural-networks
+#### Source: https://www.ibm.com/in-en/cloud/learn/neural-networks
 ### Recurrent Nueral Network
 ![image](https://user-images.githubusercontent.com/55954313/133872292-e603b584-8ad2-43d1-8bdf-863d66e4c823.png)   
-#### Source: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+#### Source: https://colah.github.io/posts/2015-08-Understanding-LSTMs
 - Uses sequential data or time series
 - Used in solving temporal dependent problems: Natural language processing, image captioning, speech recognition, voice search, translation, etc.
 - Inefficient when it comes to prediction where the outcome is long term temporal dependent.
 - The reason being Exploding and Vanishing gradient.
 - LSTM overcomes the drawback
+### Long Short Term Memory
+![image](https://user-images.githubusercontent.com/55954313/134108241-e04cf3cb-e1ef-4aa0-b594-e147ea11d5cb.png)
+#### Source: https://colah.github.io/posts/2015-08-Understanding-LSTMs
+- Contains a cell state that carries information from one state to another
+- Gates manipulate the info in the cell state. Three main gates used to do this are: **Forget gate**, **Input gate**, **Output gate**.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134108503-8be7d9d1-ddd3-4dc9-863b-09d48d60162f.png)
+- **Forget Gate**: Responsible for removing useless information. 
+- **Input Gate**: Responsible for adding new information.
+- **Output Gate**: Responsible for filtering out the information.
+
