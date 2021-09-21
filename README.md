@@ -52,8 +52,17 @@ This is called a **perceptron**. It has only one **input layer**, one **hidden l
 - **Input Gate**: Responsible for adding new information.
 - **Output Gate**: Responsible for filtering out the information.
 ___
-# Project Description
-- An attempt to predict the Stock Market Price using LSTM and analyze it's accuracy by tweaking its hyper-parameters
-- For this purpose, two Stocks have been used for training the model: Bitcoin Market and USD/CAD Forex.
-- A total of 48 models will be trained for each Stock. Each model will be different from other in the sense they will be trained on different hyperparameters.
-- The line charts of all the models will be plotted, its accuracy will be observed and conclusion derived.
+# Project Disposition
+## Description
+- An attempt to predict the **Stock Market Price** using **LSTM** and analyze it's accuracy by tweaking its **hyper-parameters**.
+- For this purpose, **two Stocks** have been used for training the model: **Bitcoin Market** and **USD/CAD Forex**.
+- A total of **48 models** will be trained for each **Stock**. Each model will be different from other in the sense they will be trained on **different hyperparameters**.
+- The **line charts** of all the models will be plotted, its accuracy will be observed.
+## Plan Of Attack
+- Data Acquisition
+- Data Preprocessing
+- Structuring Data
+- Creating the model
+- Training the model
+- Prediction
+- Plotting chart and accuracy analysis
