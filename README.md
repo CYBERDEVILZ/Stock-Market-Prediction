@@ -1,6 +1,6 @@
 # Stock Market Prediction using LSTM (Research)
-The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.
-
+The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.   
+___
 ## Abstract
 **LSTM** or **Long Short-Term Memory** is an improvement over traditional **RNN** or **Recurrent Neural Network** in the sense that it can effectively “remember” **long sequence of events in the past**. Just like humans can derive information from the previous context and can chart his future actions, **RNN** and **LSTM** tends to imitate the same. The difference between **RNN** and **LSTM** is that **RNN** is used in places where the **retention of memory is short**, whereas **LSTM** is capable of connecting events that happened way earlier and the events that followed them.   
    
@@ -51,4 +51,9 @@ This is called a **perceptron**. It has only one **input layer**, one **hidden l
 - **Forget Gate**: Responsible for removing useless information. 
 - **Input Gate**: Responsible for adding new information.
 - **Output Gate**: Responsible for filtering out the information.
-
+___
+# Project Description
+- An attempt to predict the Stock Market Price using LSTM and analyze it's accuracy by tweaking its hyper-parameters
+- For this purpose, two Stocks have been used for training the model: Bitcoin Market and USD/CAD Forex.
+- A total of 48 models will be trained for each Stock. Each model will be different from other in the sense they will be trained on different hyperparameters.
+- The line charts of all the models will be plotted, its accuracy will be observed and conclusion derived.
