@@ -66,3 +66,5 @@ ___
 - Training the model
 - Prediction
 - Plotting chart and accuracy analysis
+## Data Acquisition
+
