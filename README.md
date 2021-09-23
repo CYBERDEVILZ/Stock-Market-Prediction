@@ -67,4 +67,23 @@ ___
 - Prediction
 - Plotting chart and accuracy analysis
 ## Data Acquisition
+![image](https://user-images.githubusercontent.com/55954313/134459659-0c12c930-7e72-4e26-b182-bd6adc7e1ff5.png)
+- [Yahoo finance](https://finance.yahoo.com/) maintains past data of hundreds of Stock Markets. One can easily download the data in the form of CSV files and use it for training.
+- Past 5 years data is downloaded for both Bitcoin and USD/CAD Forex.  
+  
+![image](https://user-images.githubusercontent.com/55954313/134459760-ddfe7096-024f-459b-a000-6ee536302559.png)
+## Data Preprocessing
+### 1. Data Cleaning
+One of the many important stages in creating an efficient model. Data contains **discrepancies**. If not removed, they might cause hinderance in producing accurate results. **Null** values are the most common.   
+   
 
+![image](https://user-images.githubusercontent.com/55954313/134460077-078bc697-5b8d-427c-a8c4-000f2d326117.png)   
+   
+### 2. Data Extraction
+Not all the data that we downloaded are necessary for training purpose. Fields like **Date** are unnecessary, hence we don't need them. In this project, I have chosen **Open** (which stores the **opening price of the market**) as the deciding variable that predicts the outcome. Remember that one can choose **multiple** deciding factors as well. The reason I have chosen **Open** field is because, certainly, the **Stock Market price** depends on the previous days' opening prices. If I were to buy a Stock, I will definitely look at opening price among other factors. Hence training the model on opening price seems feasible. But one can always opt for multiple deciding factors like considering both **opening** and **closing** price together.   
+
+Now the extracted data is stored in a 2D array for futher processing.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134460621-b617c046-71da-4b30-8042-2bdb753fcd6a.png)   
+
+### 3. Feature Scaling
