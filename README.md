@@ -1,4 +1,5 @@
 # Stock Market Prediction using LSTM (Research)
+The research cum project revolves around the capability of LSTM to make predictions. The model tries to predict the next opening price of the Stock Market.
 The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.   
 ___
 ## Abstract
@@ -87,3 +88,6 @@ Now the extracted data is stored in a 2D array for futher processing.
 ![image](https://user-images.githubusercontent.com/55954313/134460621-b617c046-71da-4b30-8042-2bdb753fcd6a.png)   
 
 ### 3. Feature Scaling
+Feature scaling is the most important part of Data preprocessing. It helps in standardizing / normalizing the given dataset so that one entity is not given more importance than the other solely based on their quantity. Consider this as bringing all the scattered data within the same level for easier analysis. I have used MinMaxScaler() to scale all the values between 0 and 1.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134461232-deb53e49-5c4b-4979-9d0c-8ebb393dfab0.png)
