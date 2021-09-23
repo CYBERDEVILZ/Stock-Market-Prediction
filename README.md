@@ -139,7 +139,8 @@ All the 48 models have been prepared and stored in this project. They can be acc
 ### MODEL 1
 ![USDCAD_B5_E1_D30](/images/USDCAD_B5_E1_D30.jpg)   
 ### MODEL 48
-![BTC_B32_E100_D120](/images/USDCAD_B32_E100_D120.jpg)
-
+![BTC_B32_E100_D120](/images/USDCAD_B32_E100_D120.jpg)   
+   
+***
 # Graphical User Interface to view the charts
 ![image](https://user-images.githubusercontent.com/55954313/134464944-a989e128-8dca-4a8b-9eb6-7cca404e2dd8.png)
