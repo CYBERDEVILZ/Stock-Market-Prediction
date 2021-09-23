@@ -104,10 +104,18 @@ Structuring the data for training purpose. The model will use the previous 30 da
 
 ![image](https://user-images.githubusercontent.com/55954313/134461881-7823e6ea-e5b4-450b-a530-57c0c42e0214.png)   
 ## Training the model
+This is the stage where we play with the hyper-parameters to bring about changes in the how the machine learns. The parameters which will be tweaked are: **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**   
+   
+![image](https://user-images.githubusercontent.com/55954313/134462547-4bc9d677-8ce6-4cac-bbb9-f97cdc57a5e8.png)
 ![image](https://user-images.githubusercontent.com/55954313/134461977-4489555a-3303-4096-9349-06bfd65c504c.png)
 
 ## Prediction
 The model has been trained. Now its time to predict the next day's price. For this purpose, a test dataset is created which contains past days' opening prices. This dataset is structured the same way as done in the Data Structuring step. Then these values are fed one by one to the LSTM input layer and the output is collected and stored in a 2D array for chart plotting and accuracy analysis.   
    
-![image](https://user-images.githubusercontent.com/55954313/134462266-e5eee66e-e470-4782-b4a2-8a204a0a3315.png)
+![image](https://user-images.githubusercontent.com/55954313/134462417-c5aebc5a-3aa1-4bf3-b5be-423af62cf7f5.png)
+
+## Plotting the Chart
+Based on the output we gathered, a line chart is plotted. The chart contains both the predicted and original price for accuracy analysis. From these charts we can clearly identify which model performed well.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134462808-d9766f4a-888e-46bc-8275-782247adbba7.png)
 
