@@ -119,3 +119,33 @@ Based on the output we gathered, a line chart is plotted. The chart contains bot
    
 ![image](https://user-images.githubusercontent.com/55954313/134462808-d9766f4a-888e-46bc-8275-782247adbba7.png)
 
+# Tweaking the Hyper-parameters
+Tweaking hyper parameters brings about a change in how the model learns and analyzes the given data. Hyper parameters considered in this research project are: Batch Size, Number of Epochs, Number of Days. A total of 48 different models are created. Each containing different hyperparameters.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134463071-1fe68994-e13a-40a4-a718-4e11a82118f2.png)
+![image](https://user-images.githubusercontent.com/55954313/134463085-dddffb06-0a01-468e-91b5-2f205593f54f.png)   
+   
+
+![image](https://user-images.githubusercontent.com/55954313/134462983-1dd451bf-b02d-4c68-b21c-d422725bd559.png)
+# Bitcoin Market Models   
+All the 48 models of Bitcoin Market has been prepared and stored in this project. They can be accessed by using the GUI created. Some snapshots of the models are given below (red border means higher accuracy):   
+   
+### MODEL 1
+![BTC_B5_E1_D30](/images/BTC_B5_E1_D30.jpg)   
+### MODEL 15
+![BTC_B10_E1_D120](/images/BTC_B10_E1_D120.jpg)
+### MODEL 27
+![BTC_B16_E1_D120](/images/BTC_B16_E1_D120.jpg)
+### MODEL 48
+![BTC_B32_E100_D120](/images/BTC_B32_E100_D120.jpg)
+# USD/CAD Forex Market Models   
+All the 48 models of Bitcoin Market has been prepared and stored in this project. They can be accessed by using the GUI created. Some snapshots of the models are given below (red border means higher accuracy):   
+   
+### MODEL 1
+![USDCAD_B5_E1_D30](/images/USDCAD_B5_E1_D30.jpg)   
+### MODEL 15
+![BTC_B10_E1_D120](/images/USDCAD_B10_E1_D120.jpg)
+### MODEL 27
+![BTC_B16_E1_D120](/images/USDCAD_B16_E1_D120.jpg)
+### MODEL 48
+![BTC_B32_E100_D120](/images/USDCAD_B32_E100_D120.jpg)
