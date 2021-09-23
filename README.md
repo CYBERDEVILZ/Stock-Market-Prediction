@@ -91,3 +91,15 @@ Now the extracted data is stored in a 2D array for futher processing.
 Feature scaling is the most important part of Data preprocessing. It helps in standardizing / normalizing the given dataset so that one entity is not given more importance than the other solely based on their quantity. Consider this as bringing all the scattered data within the same level for easier analysis. I have used MinMaxScaler() to scale all the values between 0 and 1.   
    
 ![image](https://user-images.githubusercontent.com/55954313/134461232-deb53e49-5c4b-4979-9d0c-8ebb393dfab0.png)
+## Structuring Data
+- The LSTM takes a series as an input. The length of the series is equivalent to the number of previous days. 
+- X_train will be the inputs for training set
+- y_train is the output for training set   
+Similar data structure is created for preparing prediction dataset.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134461506-cec484ab-00e7-4b54-b89e-439b9e48ae13.png)   
+Structuring the data for training purpose. The model will use the previous 30 days as the deciding factor and will predict the opening price for 31st day.
+## Creating the model
+   
+
+![image](https://user-images.githubusercontent.com/55954313/134461881-7823e6ea-e5b4-450b-a530-57c0c42e0214.png)
