@@ -495,7 +495,7 @@ def imageselect():
         code_frm.destroy()
         imagename = imageDict[f"BTC_B{B}_E{E}_D{D}"]
         grph_lbl.config(image = imagename, bg = "black")
-        with open("BTCprediction.txt", "r") as f:
+        with open("./ChartViewer-Data/BTCprediction.txt", "r") as f:
             text = f.read()
             text = text[:118] + f"\nBATCH_SIZE = {B}\nEPOCHS = {E}\nDAYS = {D}\n\n" + text[118: ]
         code_txt.delete("1.0", tk.END)
@@ -534,7 +534,7 @@ def imageselect():
         code_frm.destroy()
         imagename = imageDict[f"USDCAD_B{B}_E{E}_D{D}"]
         grph_lbl.config(image = imagename, bg = "black")
-        with open("USDCADprediction.txt", "r") as f:
+        with open("./ChartViewer-Data/USDCADprediction.txt", "r") as f:
             text = f.read()
             text = text[:118] + f"\nBATCH_SIZE = {B}\nEPOCHS = {E}\nDAYS = {D}\n\n" + text[118: ]
         code_txt.delete("1.0", tk.END)
@@ -576,7 +576,7 @@ grph_lbl.grid(row = 2, column = 0, sticky = "nsew", pady = 20, padx = (2, 2), co
 
 code_txt = tk.Text(window, height = 26)
 code_txt.grid(row = 2, column = 2, sticky = "nsew", padx = (2, 2), pady = 20, columnspan = 3)
-with open("testcode0.txt", "r") as f:
+with open("./ChartViewer-Data/testcode0.txt", "r") as f:
     text = f.read()
 code_txt.delete("1.0", tk.END)
 code_txt.insert("1.0", text)
