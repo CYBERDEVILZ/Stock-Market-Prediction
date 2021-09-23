@@ -102,4 +102,12 @@ Structuring the data for training purpose. The model will use the previous 30 da
 ## Creating the model
    
 
-![image](https://user-images.githubusercontent.com/55954313/134461881-7823e6ea-e5b4-450b-a530-57c0c42e0214.png)
+![image](https://user-images.githubusercontent.com/55954313/134461881-7823e6ea-e5b4-450b-a530-57c0c42e0214.png)   
+## Training the model
+![image](https://user-images.githubusercontent.com/55954313/134461977-4489555a-3303-4096-9349-06bfd65c504c.png)
+
+## Prediction
+The model has been trained. Now its time to predict the next day's price. For this purpose, a test dataset is created which contains past days' opening prices. This dataset is structured the same way as done in the Data Structuring step. Then these values are fed one by one to the LSTM input layer and the output is collected and stored in a 2D array for chart plotting and accuracy analysis.   
+   
+![image](https://user-images.githubusercontent.com/55954313/134462266-e5eee66e-e470-4782-b4a2-8a204a0a3315.png)
+
