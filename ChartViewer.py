@@ -15,7 +15,6 @@ def check2(*args):
 def check3(*args):
     dropDownVar3.set(dropDownVar3.get().strip("\t").strip())
 
-
 window = tk.Tk()
 window.geometry("1316x800")
 window.configure(bg = "black")
