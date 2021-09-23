@@ -150,4 +150,4 @@ All the 48 models of Bitcoin Market has been prepared and stored in this project
 ![BTC_B32_E100_D120](/images/USDCAD_B32_E100_D120.jpg)
 
 # Graphical User Interface to view the charts
-![image](https://user-images.githubusercontent.com/55954313/134464861-313c3581-131e-4775-aa34-4e27975fbb14.png)
+![image](https://user-images.githubusercontent.com/55954313/134464944-a989e128-8dca-4a8b-9eb6-7cca404e2dd8.png)
