@@ -122,8 +122,7 @@ Based on the output we gathered, a line chart is plotted. The chart contains bot
 # Tweaking the Hyper-parameters
 Tweaking hyper parameters brings about a change in how the model learns and analyzes the given data. Hyper parameters considered in this research project are: Batch Size, Number of Epochs, Number of Days. A total of 48 different models are created. Each containing different hyperparameters.   
    
-![image](https://user-images.githubusercontent.com/55954313/134463071-1fe68994-e13a-40a4-a718-4e11a82118f2.png)
-![image](https://user-images.githubusercontent.com/55954313/134463085-dddffb06-0a01-468e-91b5-2f205593f54f.png)   
+![image](https://user-images.githubusercontent.com/55954313/134464758-0d48126d-8aa4-4f96-8428-2ba16ba73afd.png)  
    
 
 ![image](https://user-images.githubusercontent.com/55954313/134462983-1dd451bf-b02d-4c68-b21c-d422725bd559.png)
@@ -149,3 +148,6 @@ All the 48 models of Bitcoin Market has been prepared and stored in this project
 ![BTC_B16_E1_D120](/images/USDCAD_B16_E1_D120.jpg)
 ### MODEL 48
 ![BTC_B32_E100_D120](/images/USDCAD_B32_E100_D120.jpg)
+
+# Graphical User Interface to view the charts
+![image](https://user-images.githubusercontent.com/55954313/134464861-313c3581-131e-4775-aa34-4e27975fbb14.png)
