@@ -2,6 +2,34 @@
 The research cum project revolves around the capability of LSTM to make predictions. The model tries to predict the next opening price of the Stock Market.
 The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.   
 ___
+# Table of Contents
+- [Abstract](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#abstract)
+- [Background Information](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#background-information)
+   - [What is Machine Learning?](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#what-is-machine-learning)
+   - [How is it Different from Deep Learning?](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#how-is-it-different-from-deep-learning)
+   - [AI vs ML vs DL](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#artificial-intelligence-vs-machine-learning-vs-deep-learning)
+   - [Neural Networks](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#neural-networks)
+   - [Simplest Neural Network](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#simplest-neural-network)
+   - [Deep Neural Network](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#deep-neural-network)
+   - [Recurrent Nueral Network](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#recurrent-nueral-network)
+   - [Long Short Term Memory](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#long-short-term-memory)
+- [Project Disposition](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#project-disposition)
+   - [Description](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#description)
+   - [Plan Of Attack](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#plan-of-attack)
+   - [Data Acquisition](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#data-acquisition)
+   - [Data Preprocessing](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#data-preprocessing)
+      - [Data Cleaning](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#1-data-cleaning)
+      - [Data Extraction](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#2-data-extraction)
+      - [Feature Scaling](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#3-feature-scaling)
+   - [Structuring Data](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#structuring-data)
+   - [Creating the model](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#creating-the-model)
+   - [Training the model](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#training-the-model)
+   - [Prediction](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#prediction)
+   - [Plotting the Chart](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#plotting-the-chart)
+- [Tweaking the Hyper-parameters](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#tweaking-the-hyper-parameters)
+- [Bitcoin Market Models](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#bitcoin-market-models)
+- [USD/CAD Forex Market Models](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#usdcad-forex-market-models)
+- [Graphical User Interface](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#graphical-user-interface-to-view-the-charts)
 ## Abstract
 **LSTM** or **Long Short-Term Memory** is an improvement over traditional **RNN** or **Recurrent Neural Network** in the sense that it can effectively “remember” **long sequence of events in the past**. Just like humans can derive information from the previous context and can chart his future actions, **RNN** and **LSTM** tends to imitate the same. The difference between **RNN** and **LSTM** is that **RNN** is used in places where the **retention of memory is short**, whereas **LSTM** is capable of connecting events that happened way earlier and the events that followed them.   
    
