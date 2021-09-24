@@ -112,7 +112,7 @@ This is the stage where we play with the hyper-parameters to bring about changes
 ## Prediction
 The model has been trained. Now its time to predict the next day's price. For this purpose, a test dataset is created which contains past days' opening prices. This dataset is structured the same way as done in the Data Structuring step. Then these values are fed one by one to the LSTM input layer and the output is collected and stored in a 2D array for chart plotting and accuracy analysis.   
    
-![image](https://user-images.githubusercontent.com/55954313/134462417-c5aebc5a-3aa1-4bf3-b5be-423af62cf7f5.png)
+![image](https://user-images.githubusercontent.com/55954313/134629026-79575fa9-fb67-4b24-9003-59fd2bc1a621.png)
 
 ## Plotting the Chart
 Based on the output we gathered, a line chart is plotted. The chart contains both the predicted and original price for accuracy analysis. From these charts we can clearly identify which model performed well.   
