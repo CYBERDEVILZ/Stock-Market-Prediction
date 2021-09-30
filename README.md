@@ -1,4 +1,7 @@
 # Stock Market Prediction using LSTM
+![image](https://user-images.githubusercontent.com/55954313/134464944-a989e128-8dca-4a8b-9eb6-7cca404e2dd8.png)   
+   
+
 The research cum project revolves around the capability of LSTM to make predictions. The model tries to predict the next opening price of the Stock Market.
 The main aim of this project is to increase the accuracy of the prediction model by tweaking several **hyper-parameters**. The number of **LSTM** layers used would be fixed (75 units) but the parameters that are being changed are:- **BATCH_SIZE** for LSTM, **EPOCHS** and previous **DAYS**.   
 ___
