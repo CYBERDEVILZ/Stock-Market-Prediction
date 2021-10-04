@@ -1,5 +1,7 @@
 # Stock Market Prediction using LSTM
-![image](https://user-images.githubusercontent.com/55954313/134464944-a989e128-8dca-4a8b-9eb6-7cca404e2dd8.png)   
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55954313/134464944-a989e128-8dca-4a8b-9eb6-7cca404e2dd8.png" />
+</p>
    
 
 The research cum project revolves around the capability of LSTM to make predictions. The model tries to predict the next opening price of the Stock Market.
