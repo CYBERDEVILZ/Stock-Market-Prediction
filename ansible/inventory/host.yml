@@ -5,3 +5,6 @@ localhost
 
 [tomcat-servers]
 webserver1
+
+[tomcat-servers-secondary]
+webserver2
