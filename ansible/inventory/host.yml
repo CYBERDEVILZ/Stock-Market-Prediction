@@ -1,1 +1,7 @@
 # file to target the hosts
+
+[test]
+localhost
+
+[tomcat-servers]
+webserver1
