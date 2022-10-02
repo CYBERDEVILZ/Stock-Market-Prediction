@@ -1,7 +1,12 @@
 # -----------------------------------------> GUI FOR SHOWCASING CHARTS <----------------------------------------- #
+
+#Imports
+
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
+
+
 
 def check(*args):
     dropDownVar.set(dropDownVar.get().strip("\t").strip())
