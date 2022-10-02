@@ -23,6 +23,8 @@ from sklearn.preprocessing import MinMaxScaler
 sc = MinMaxScaler((0,1))
 training_set_sc = sc.fit_transform(training_set)
 
+# Split 
+
 X_train = []
 y_train = []
 for i in range(DAYS, len(training_set_sc)):
@@ -30,6 +32,7 @@ for i in range(DAYS, len(training_set_sc)):
     y_train.append(training_set_sc[i, 0])
 X_train, y_train = np.array(X_train), np.array(y_train)
 
+# Training
 
 rnn = tf.keras.models.Sequential()
 
