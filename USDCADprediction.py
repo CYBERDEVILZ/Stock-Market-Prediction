@@ -1,12 +1,18 @@
+# Imports
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Constants
+
 DAYS = 30
 BATCH_SIZE = 32
 EPOCHS = 10
+
+# Training
 
 training_set = pd.read_csv(r"Dataset\USDCADtrain.csv", index_col="Date")
 training_set.dropna(inplace=True)
