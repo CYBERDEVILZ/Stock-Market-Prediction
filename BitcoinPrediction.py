@@ -1,12 +1,19 @@
+
+# Imports
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Constants
+
 DAYS = 30
 BATCH_SIZE = 32
 EPOCHS = 10
+
+# Training
 
 training_set = pd.read_csv(r"Dataset\BTC-INR.csv", index_col="Date")
 training_set.dropna(inplace=True)
@@ -17,6 +24,8 @@ from sklearn.preprocessing import MinMaxScaler
 sc = MinMaxScaler((0,1))
 training_set_sc = sc.fit_transform(training_set)
 
+# Split
+
 X_train = []
 y_train = []
 for i in range(DAYS, len(training_set_sc)):
@@ -24,6 +33,7 @@ for i in range(DAYS, len(training_set_sc)):
     y_train.append(training_set_sc[i, 0])
 X_train, y_train = np.array(X_train), np.array(y_train)
 
+# Learning
 
 rnn = tf.keras.models.Sequential()
 
