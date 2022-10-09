@@ -35,7 +35,7 @@ ___
 - [Bitcoin Market Models](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#bitcoin-market-models)
 - [USD/CAD Forex Market Models](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#usdcad-forex-market-models)
 - [Graphical User Interface](https://github.com/CYBERDEVILZ/Stock-Market-Prediction#graphical-user-interface-to-view-the-charts)
-## Abstract
+## Abstract    
 **LSTM** or **Long Short-Term Memory** is an improvement over traditional **RNN** or **Recurrent Neural Network** in the sense that it can effectively “remember” **long sequence of events in the past**. Just like humans can derive information from the previous context and can chart his future actions, **RNN** and **LSTM** tends to imitate the same. The difference between **RNN** and **LSTM** is that **RNN** is used in places where the **retention of memory is short**, whereas **LSTM** is capable of connecting events that happened way earlier and the events that followed them.   
    
 Hence, it (LSTM) is one of the **best** choices when it comes to analyzing and predicting **temporal dependent** phenomena which spans over a **long period** of time or multiple instances in the past.   
